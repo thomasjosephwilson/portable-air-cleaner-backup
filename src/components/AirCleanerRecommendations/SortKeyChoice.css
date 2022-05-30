@@ -1,0 +1,58 @@
+#sort-key-choice {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgba(234, 95, 20, 0.75);
+    color: white;
+    padding-left: 5px;
+    border-radius: 10px;
+}
+
+#sort-key-choice-dropdown {
+    margin-left: 5px;
+    margin-top: 8px;
+    margin-right: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    border: 0px;
+    outline: 0px;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    #sort-key-choice {
+        font-size: 16px;
+    }
+
+    #sort-key-choice-dropdown {
+        font-size: 15px;
+        margin-left: 5px;
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 515px) {
+    #sort-key-choice {
+        font-size: 16px;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    #sort-key-choice-dropdown {
+        height: 35px;   
+    }
+}
+
+@media (max-width: 493px) {
+    #sort-key-choice-dropdown {
+        margin-left: -4px;
+    }
+}
+
+@media (max-width: 405px) {
+    #sort-key-choice-dropdown {
+        font-size: 13px;
+    }
+}

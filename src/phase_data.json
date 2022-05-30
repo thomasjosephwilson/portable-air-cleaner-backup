@@ -1,0 +1,225 @@
+{
+	"phase_data" : [
+		{
+			"name" : "spectator_large",
+			"phase1MaxPercentOccupancy" : 0,
+			"phase2MaxPercentOccupancy" : 25,
+			"phase3MaxPercentOccupancy" : 25,
+			"phase1MaxOccupancy" : 0,
+			"phase2MaxOccupancy" : 200,
+			"phase3MaxOccupancy" : 9000
+		},
+		{
+			"name" : "spectator_small",
+			"phase1MaxPercentOccupancy" : 0,
+			"phase2MaxPercentOccupancy" : 25,
+			"phase3MaxPercentOccupancy" : 50,
+			"phase1MaxOccupancy" : 0,
+			"phase2MaxOccupancy" : 200,
+			"phase3MaxOccupancy" : 400
+		},
+		{
+			"name" : "professional_services",
+			"phase1MaxPercentOccupancy" : 25,
+			"phase2MaxPercentOccupancy" : 25,
+			"phase3MaxPercentOccupancy" : 50,
+			"phase1MaxOccupancy" : 200,
+			"phase2MaxOccupancy" : 200,
+			"phase3MaxOccupancy" : 400
+		},
+		{
+			"name" : "personal_services",
+			"phase1MaxPercentOccupancy" : 25,
+			"phase2MaxPercentOccupancy" : 25,
+			"phase3MaxPercentOccupancy" : 50
+		},
+		{
+			"name" : "wedding_funeral_indoor",
+			"phase1MaxPercentOccupancy" : 25,
+			"phase2MaxPercentOccupancy" : 25,
+			"phase3MaxPercentOccupancy" : 50,
+			"phase1MaxOccupancy" : 30,
+			"phase2MaxOccupancy" : 200,
+			"phase3MaxOccupancy" : 400
+		},
+		{
+			"name" : "events_indoor",
+			"phase1MaxPercentOccupancy" : 25,
+			"phase2MaxPercentOccupancy" : 25,
+			"phase3MaxPercentOccupancy" : 50,
+			"phase1MaxOccupancy" : 6,
+			"phase2MaxOccupancy" : 200,
+			"phase3MaxOccupancy" : 400
+		},
+		{
+			"name" : "entertainment",
+			"phase1MaxPercentOccupancy" : 0,
+			"phase2MaxPercentOccupancy" : 25,
+			"phase3MaxPercentOccupancy" : 50,
+			"phase1MaxOccupancy" : 0,
+			"phase2MaxOccupancy" : 200,
+			"phase3MaxOccupancy" : 400				
+		},
+		{
+			"name" : "bowling",
+			"phase1MaxPercentOccupancy" : 0,
+			"phase2MaxPercentOccupancy" : 25,
+			"phase3MaxPercentOccupancy" : 50			
+		},
+		{
+			"name" : "card_room",
+			"phase1MaxPercentOccupancy" : 25,
+			"phase2MaxPercentOccupancy" : 25,
+			"phase3MaxPercentOccupancy" : 50,
+			"phase1MaxOccupancy" : 200,
+			"phase2MaxOccupancy" : 200,
+			"phase3MaxOccupancy" : 400				
+		},
+		{
+			"name" : "movie_theaters",
+			"phase1MaxPercentOccupancy" : 0,
+			"phase2MaxPercentOccupancy" : 25,
+			"phase3MaxPercentOccupancy" : 50,
+			"phase1MaxOccupancy" : 0,
+			"phase2MaxOccupancy" : 200,
+			"phase3MaxOccupancy" : 400					
+		},
+		{
+			"name" : "museum_large",
+			"phase1MaxPercentOccupancy" : 0,
+			"phase2MaxPercentOccupancy" : 25,
+			"phase3MaxPercentOccupancy" : 50,
+			"phase3MaxOccupancy" : 600					
+		},
+		{	
+			"name" : "museum_small",
+			"phase1MaxPercentOccupancy" : 0,
+			"phase2MaxPercentOccupancy" : 25,
+			"phase3MaxPercentOccupancy" : 50,
+			"phase3MaxOccupancy" : 400					
+		},
+		{
+			"name" : "domestic_services",
+			"phase1MaxPercentOccupancy" : 50,
+			"phase2MaxPercentOccupancy" : 50,
+			"phase3MaxPercentOccupancy" : 50			
+		},
+		{
+			"name" : "special_events_small",
+			"phase1MaxPercentOccupancy" : 0,
+			"phase2MaxPercentOccupancy" : 50,
+			"phase3MaxPercentOccupancy" : 50,
+			"phase1MaxOccupancy" : 0,
+			"phase2MaxOccupancy" : 400,
+			"phase3MaxOccupancy" : 400					
+		},
+		{			
+			"name" : "special_events_large",
+			"phase1MaxPercentOccupancy" : 0,
+			"phase2MaxPercentOccupancy" : 50,
+			"phase3MaxPercentOccupancy" : 50,
+			"phase1MaxOccupancy" : 0,
+			"phase2MaxOccupancy" : 400,
+			"phase3MaxOccupancy" : 600					
+		},
+		{	
+			"name" : "retail",
+			"phase1MaxPercentOccupancy" : 25,
+			"phase2MaxPercentOccupancy" : 25,
+			"phase3MaxPercentOccupancy" : 50				
+		},
+		{
+			"name" : "library_large",
+			"phase1MaxPercentOccupancy" : 25,
+			"phase2MaxPercentOccupancy" : 25,
+			"phase3MaxPercentOccupancy" : 50,
+			"phase3MaxOccupancy" : 600					
+		},
+		{
+			"name" : "library_small",
+			"phase1MaxPercentOccupancy" : 25,
+			"phase2MaxPercentOccupancy" : 25,
+			"phase3MaxPercentOccupancy" : 50,
+			"phase3MaxOccupancy" : 400	
+		},
+		{
+			"name" : "pet_grooming",
+			"phase1MaxPercentOccupancy" : 50,
+			"phase2MaxPercentOccupancy" : 50,
+			"phase3MaxPercentOccupancy" : 50					
+		},
+		{
+			"name" : "photography",
+			"phase1MaxPercentOccupancy" : 0,
+			"phase2MaxPercentOccupancy" : 25,
+			"phase3MaxPercentOccupancy" : 50,
+			"phase1MaxOccupancy" : 0,
+			"phase2MaxOccupancy" : 75,
+			"phase3MaxOccupancy" : 125				
+		},
+		{
+			"name" : "real_estate",
+			"phase1MaxPercentOccupancy" : 0,
+			"phase2MaxPercentOccupancy" : 25,
+			"phase3MaxPercentOccupancy" : 50				
+		},
+		{
+			"name" : "performing_arts_small",
+			"phase1MaxPercentOccupancy" : 25,
+			"phase2MaxPercentOccupancy" : 25,
+			"phase3MaxPercentOccupancy" : 50,
+			"phase2MaxOccupancy" : 200,
+			"phase3MaxOccupancy" : 400				
+		},
+		{
+			"name" : "performing_arts_large",
+			"phase1MaxPercentOccupancy" : 25,
+			"phase2MaxPercentOccupancy" : 25,
+			"phase3MaxPercentOccupancy" : 50,
+			"phase2MaxOccupancy" : 200,
+			"phase3MaxOccupancy" : 600				
+		},
+		{
+			"name" : "vessel_sales",
+			"phase1MaxPercentOccupancy" : 50,
+			"phase2MaxPercentOccupancy" : 50,
+			"phase3MaxPercentOccupancy" : 50		
+		},
+		{
+			"name" : "other_small",
+			"phase1MaxPercentOccupancy" : 25,
+			"phase2MaxPercentOccupancy" : 25,
+			"phase3MaxPercentOccupancy" : 50,
+			"phase1MaxOccupancy" : 100,
+			"phase2MaxOccupancy" : 200,
+			"phase3MaxOccupancy" : 400				
+		},
+		{
+			"name" : "other_large",
+			"phase1MaxPercentOccupancy" : 25,
+			"phase2MaxPercentOccupancy" : 25,
+			"phase3MaxPercentOccupancy" : 50,
+			"phase1MaxOccupancy" : 100,
+			"phase2MaxOccupancy" : 300,
+			"phase3MaxOccupancy" : 600	
+		},
+		{
+			"name": "religious_events_small",
+			"phase1MaxPercentOccupancy" : 25,
+			"phase2MaxPercentOccupancy" : 25,
+			"phase3MaxPercentOccupancy" : 50,
+			"phase1MaxOccupancy" : 200,
+			"phase2MaxOccupancy" : 200,
+			"phase3MaxOccupancy" : 400	
+		},
+		{
+			"name" : "religious_events_large",
+			"phase1MaxPercentOccupancy" : 25,
+			"phase2MaxPercentOccupancy" : 25,
+			"phase3MaxPercentOccupancy" : 50,
+			"phase1MaxOccupancy" : 200,
+			"phase2MaxOccupancy" : 200,
+			"phase3MaxOccupancy" : 600	
+		}		
+	]
+}

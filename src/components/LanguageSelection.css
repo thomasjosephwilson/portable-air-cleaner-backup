@@ -1,0 +1,50 @@
+#language-selection {
+    display: flex;
+    position: absolute;
+    right: 1%;
+    top: 35px;
+    font-size: 22px;
+    background-color: rgb(234, 95, 20, 1);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#language-selection-dropdown {
+    font-size: 19px;
+    height: 28px;
+    margin-left: 10px;
+    background-color: rgb(234, 95, 20, 1);
+    color: white;
+    border: 0px;
+    outline: 0px;
+}
+
+@media (max-width: 1024px) {
+    #language-selection {
+        font-size: 17px;
+        padding-left: 5px;
+        margin-top: 5px;
+    }
+
+    #language-selection-label {
+        margin-top: 3px;
+    }
+
+    #language-selection-dropdown {
+        font-size: 16px;
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    #language-selection {
+        margin: 0 auto;
+        position: static;
+    }
+
+    #language-selection-container {
+        display: flex;
+        align-items: center;
+    }
+}

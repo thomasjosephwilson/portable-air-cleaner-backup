@@ -1,0 +1,79 @@
+#air-cleaner-details-container {
+    display: flex;
+    justify-content: center;
+}
+
+#air-cleaner-details {
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 803px;
+    padding: 5px;
+    padding-left: 10px;
+    position: relative;
+    background-color: white;
+}
+
+#air-cleaner-details-header {
+    display: flex;
+    margin-top: 20px;
+}
+
+#close-air-cleaner-details-button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.air-cleaner-details-image {
+    width: 240px;
+    height: 240px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+#air-cleaner-details-body {
+    display: flex;
+}
+
+#air-cleaner-details-body p {
+    margin-left: 25px;
+    margin-block-start: 0px;
+}
+
+#change-num-air-cleaners-input {
+    width: 25px;
+}
+
+@media (max-width: 1024px) {
+    #air-cleaner-details {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    #air-cleaner-details-body {
+        display: block;
+    }
+
+    .air-cleaner-details-image {
+        float: left;
+    }
+}
+
+@media (max-width: 500px) {
+    .air-cleaner-details-image {
+        float: none;
+    }
+}
+
+@media (max-width: 310px) {
+    #air-cleaner-details-container {
+        display: block;
+    }
+
+    #air-cleaner-details {
+        width: 320px;
+    }
+}

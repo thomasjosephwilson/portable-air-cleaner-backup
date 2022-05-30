@@ -1,0 +1,148 @@
+#filter-options {
+    width: 250px;
+    height: 100%;
+    background-color: rgba(234, 95, 20, 0.75);
+    margin-top: 100px;
+}
+
+#filter-options span {
+    font-weight: normal;
+}
+
+#filter-options p {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.filter-option-container {
+    padding-left: 10px;
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.filter-option {
+    display: flex;
+    align-items: center;
+}
+
+#filter-options-title-container {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#filter-options-title {
+    padding-left: 15px;
+    font-size: 23px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+#filter-options-clear-all-button {
+    height: 100%;
+    padding-top: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 65px;
+}
+
+.filter-option-title {
+    margin-block-end: 0px;
+    padding-bottom: 10px;
+}
+
+.filter-option-input {
+    width: 50px;
+    height: 25px;
+}
+
+.filter-option-unit-dollar {
+    margin-right: 3px;
+}
+
+.filter-option-unit-other {
+    margin-left: 3px;
+}
+
+.filter-option-label-and-input {
+    display: flex;
+}
+
+#last-filter-option-container {
+    border-bottom: 0px solid black;
+}
+
+.submit-filter-options-button {
+    margin-left: 10px;
+}
+
+.label-placeholder {
+    margin-left: 11px;
+}
+
+#price-input-and-units-label {
+    margin-right: 28px;
+}
+
+#noise-input-and-units-label {
+    margin-left: 13px;
+    margin-right: 5px;
+}
+
+#power-input-and-units-label {
+    margin-left: 13px;
+    margin-right: 10px;
+}
+
+#max-num-air-cleaners-input {
+    margin-left: 13px;
+    margin-right: 28px;
+}
+
+@media (max-width: 768px) {
+    #filter-options {
+        width: 150px;
+        margin-top: 150px;
+    }
+
+    #filter-options-title-container {
+        flex-direction: column;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    #filter-options-title {
+        font-size: 18px;
+        padding-left: 0px;
+        padding-bottom: 10px;
+    }
+
+    .filter-option-title {
+        font-size: 15px;
+    }
+
+    .filter-option {
+        flex-direction: column;
+        display: block;
+        align-items: unset;
+    }
+
+    #price-input-and-units-label {
+        margin-right: 0px;
+    }
+
+    #power-input-and-units-label {
+        margin-right: 0px;
+    }
+
+    .submit-filter-options-button {
+        margin-left: 13px;
+        margin-top: 5px;
+    }
+}

@@ -1,0 +1,273 @@
+body {
+  background-color: white;
+}
+
+.about-submodule-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#header-wrapper {
+  position: relative;
+}
+
+#header-first-rectangle {
+  background: #ffabab;
+  height: 90px;
+  border: 2px solid #ffabab;
+  z-index: 10;
+}
+
+#header-second-rectangle {
+  background: #ffabab;
+  height: 130px;
+  position: relative;
+  top: -80px;
+  transform: skewY(-3deg);
+  z-index: -5;
+}
+
+#header-title {
+  color: #00a2c7;
+  font-size: 38pt;
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.about-submodule-container h2,
+#about-features-container h2,
+#about-demo-container h2,
+#about-handoff-container h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30pt;
+  color: #00a2c7;
+}
+
+.about-text-container {
+  width: 50%;
+}
+
+.about-text-container p,
+.features-text-container p {
+  font-size: 22pt;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+}
+
+#img-logo,
+#img-commerce-logo,
+#img-restart-logo {
+  width: 350px;
+  height: 350px;
+}
+
+#img-cleaner {
+  width: 450px;
+  height: 500px;
+}
+
+#about-team-container,
+#about-sponsor-container {
+  margin-right: 15%;
+  margin-bottom: 100px;
+}
+
+#about-product-container {
+  background-image: url("../images/about_product_background.png");
+  width: inherit;
+  height: 600px;
+  margin-top: -140px;
+  padding-top: 180px;
+  padding-bottom: 80px;
+  
+  position: relative;
+}
+
+#product-text-container {
+  width: 40%;
+}
+
+#about-features-container {
+  display: flex;
+  flex-direction: column;
+  background: #00a2c71a;
+  position: relative;
+  z-index: 10;
+}
+
+.features-module-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+}
+
+.features-text-container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.features-subtitle {
+  color: #00a2c7;
+  font-size: 20pt;
+  margin: -1%;
+}
+
+.features-img {
+  width: 300px;
+  height: 300px;
+}
+
+#about-features-title {
+  width: 80%;
+  align-self: center;
+  margin-bottom: 70px;
+  margin-top: 50px;
+}
+
+#about-features-anglerect {
+  background: white;
+  height: 100px;
+  position: relative;
+  top: -45px;
+  transform: skewY(3deg);
+  z-index: 10;
+}
+
+#about-demo-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: -50px auto 80px auto;
+}
+
+@media (max-width: 3000px) {
+  #header-first-rectangle {
+    height: 180px;
+  }
+
+  #header-second-rectangle {
+    height: 250px;
+    top: -160px;
+  }
+}
+
+@media (max-width: 1882px) {
+  #header-first-rectangle {
+    height: 90px;
+  }
+
+  #header-second-rectangle {
+    height: 130px;
+    top: -80px;
+  }
+
+  #first-header {
+    margin-top: 18%;
+    font-size: 26pt;
+  }
+}
+
+@media (max-width: 1200px) {
+  #about-product-container {
+    height: 800px;
+    margin-top: -140px;
+  }
+
+  #first-header {
+    margin-top: 15%;
+    font-size: 24pt;
+  }
+}
+
+@media (max-width: 1000px) {
+  #first-header {
+    margin-top: 10%;
+  }
+
+  #img-cleaner {
+    display: none;
+  }
+
+  #product-text-container {
+    width: 80%;
+  }
+
+  #about-product-container {
+    height: fit-content;
+    margin-top: -200px;
+  }
+}
+
+@media (max-width: 758px) {
+  .features-module-container,
+  .about-submodule-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .features-module-container {
+    margin-bottom: 70px;
+  }
+
+  .features-text-container,
+  .about-text-container {
+    width: 80%;
+  }
+
+  #img-logo,
+  #img-commerce-logo,
+  #img-restart-logo {
+    width: 250px;
+    height: 250px;
+  }
+
+  #img-blank {
+    display: none;
+  }
+
+  #about-team-container,
+  #about-sponsor-container {
+    margin-right: 0;
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 512px) {
+  .features-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  #header-title {
+    font-size: 30pt;
+  }
+
+  .about-submodule-container h2,
+  #about-features-container h2,
+  #about-demo-container h2,
+  #about-handoff-container h2 {
+    font-size: 20pt;
+  }
+
+  .about-text-container p,
+  .features-text-container p {
+    font-size: 17pt;
+  }
+
+  .features-text-container,
+  .about-text-container {
+    width: 90%;
+  }
+}
